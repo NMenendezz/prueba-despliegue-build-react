@@ -1,1 +1,0 @@
-buildpacks:set https://github.com/unfold/heroku-buildpack-pnpm
