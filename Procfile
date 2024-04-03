@@ -1,1 +1,1 @@
-web: pnpm start
+buildpacks:set https://github.com/unfold/heroku-buildpack-pnpm
