@@ -5,12 +5,11 @@ import { fileURLToPath } from 'url'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, './src') // Esto mapea '@' a la carpeta 'src' en tu proyecto
+      '@': path.resolve(__dirname, './src')
     }
   }
 })
